@@ -23,7 +23,6 @@ function App() {
       </header>
       <div className="container-fluid mt-3 mb-5">
         <Notes/>
-        <Select/>
       </div>
     </div>
   );
