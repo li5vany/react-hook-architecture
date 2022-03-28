@@ -2,7 +2,7 @@ import React             from 'react';
 import logo              from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Notes, Select } from "./components";
+import { Notes } from "./components";
 
 function App() {
   return (
@@ -12,12 +12,7 @@ function App() {
         <h3>
           Welcome to React Hook Architecture
         </h3>
-        <a
-          className="App-link"
-          href="/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a className="App-link" href="/" target="_blank" rel="noopener noreferrer">
           GitHub repo
         </a>
       </header>
